@@ -16,7 +16,6 @@ import { SigUpService } from './signup/signup.service';
     ReactiveFormsModule,
     VmessageModule,
     RouterModule,
-    FormsModule,
     HomeRoutingModule
   ],
   declarations: [
