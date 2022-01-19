@@ -1,1 +1,5 @@
 .container-fluid{margin-top: 70px;}
+
+.break-word{
+  word-break: break-all;
+}
