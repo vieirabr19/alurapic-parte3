@@ -1,9 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { tap } from 'rxjs/operators';
+import { environment } from '../../../environments/environment';
 import { UserService } from '../user/user.service';
 
-const HTTP_HOST = 'http://localhost:3000';
+const HTTP_HOST = environment.apiUrl;
 
 @Injectable({
   providedIn: 'root'
